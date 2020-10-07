@@ -1,0 +1,69 @@
+<doctype! html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bogo - Finanse pod kontrolą</title>
+        <meta name="description" content="Finanse osobiste pod kontrolą. Sprawdzaj swoje wydatki i oszczędzaj zarobione pieniądze. Bogaci też oszczędzaja! Aplikacja pozwoli Ci zarządzać budżetem domowym.">
+        <meta name="author" content="SitePoint">
+        <meta name="description" content="Finanse osobiste pod kontrolą. Sprawdzaj swoje wydatki i oszczędzaj zarobione pieniądze. Bogaci też oszczędzaja! Aplikacja pozwoli Ci zarządzać budżetem domowym."> 
+        <meta property="og:title" content="Bogo">
+        <meta property="og:description" content="Aplikacja do zarządzania budżetem domowym. Kontroluj swoje wydatki. Oszczędzaj z głową."> <!-- ˜300 chars -->
+        <meta property="og:site_name" content="Bogo - Bogaci oszczędzają">
+        <meta property="og:type" content="website app">
+        <meta property="og:url" content="http://www.google.pl">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Varela+Round&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800|Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap&subset=latin-ext" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/8938055e82.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="exchange-rates">
+        <!--<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="white" fill-opacity="1" d="M0,32L21.8,64C43.6,96,87,160,131,176C174.5,192,218,160,262,128C305.5,96,349,64,393,48C436.4,32,480,32,524,53.3C567.3,75,611,117,655,149.3C698.2,181,742,203,785,192C829.1,181,873,139,916,133.3C960,128,1004,160,1047,154.7C1090.9,149,1135,107,1178,90.7C1221.8,75,1265,85,1309,90.7C1352.7,96,1396,96,1418,96L1440,96L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"></path></svg>-->
+        <header class="header">
+            <a href="index.html" class="logo">Bogo <span>App</span></a>
+            <p class="logo-text">Your online wallet</p>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
+              <li><a href="#work">About</a></li>
+              <li><a href="exchange.html">Exchange rates</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li class="log" onclick="login()"><a href="#login">Login</a></li>
+            </ul>
+          </header>
+        <div class="container-exchange">
+            <div class="title-ex">
+                <h1>Check actually exchange rates</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer libero ex, ornare non turpis in, pulvinar accumsan massa. Nunc non blandit urna. Phasellus vehicula dui id mi dapibus commodo. Quisque egestas nibh orci, sollicitudin auctor est volutpat eget. Donec leo lorem, ultrices vel ultricies euismod, vehicula nec magna. Etiam sit amet augue cursus, tincidunt nulla non, consequat dolor. Nulla posuere aliquet ligula nec auctor. Phasellus enim est, dictum eu tempor at, tempus non lectus.</p>
+            </div>
+            <div class="exchange-info">
+            
+            </div>
+            <button class="btn-home" id="btn-home-ex">Try now!</button>
+        </div>
+        <div class="login-box">
+            <form class="login" method="post">
+                <p class="title">Get started <span>for free</span></p>
+                <p class="description">Let's join Us and save your money</p>
+                <div class="form-row">
+                     <label for="name"><i class="fas fa-user"></i></label>
+                     <input type="text" placeholder="" autofocus required/>
+                </div>
+                <div class="form-row">
+                 <label for="password"><i class="fas fa-unlock-alt"></i></label>
+                     <input type="password" placeholder="" required/>
+                     <button class="btn-login" type="submit">Login</button>
+                </div>
+                     <p class="info"><a href="#">Forgot your password?</a></p>
+                     <p class="register">New Account?<a href="#">Register</a></p>
+            </form>
+            <div class="infograph">
+                 <img src="image/graphic.png" alt="oszczędzaj pieniądze z Bogo">
+            </div>
+            <span class="close">&times;</span>
+         </div>
+         <script src="js/script.js"></script>
+    </body>
+
+</html>

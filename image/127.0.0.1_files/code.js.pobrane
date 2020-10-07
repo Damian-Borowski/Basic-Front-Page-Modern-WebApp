@@ -1,0 +1,6 @@
+let result = 20 + 2;
+
+let napis = "tekst";
+napis.toUpperCase();
+
+let myName = "Damian";
